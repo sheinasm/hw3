@@ -73,3 +73,5 @@ function inception( callback, value ) {
 function funcToCall( messageToLog ) {
     console.log( messageToLog );
 }
+
+inception( funcToCall, "LOTR is a fantastic movie." );
