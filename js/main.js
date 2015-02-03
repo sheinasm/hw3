@@ -61,3 +61,7 @@ var numba = function( string ) {
         console.log( "7, what a perfect choice!" );
     }
 }
+
+numba( "7" );
+numba( "seventy" );
+numba( "university" );
