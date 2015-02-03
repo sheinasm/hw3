@@ -69,3 +69,7 @@ numba( "university" );
 function inception( callback, value ) {
     callback( value );
 }
+
+function funcToCall( messageToLog ) {
+    console.log( messageToLog );
+}
