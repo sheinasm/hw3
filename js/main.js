@@ -46,11 +46,8 @@ var Presidents = [President1, President2, President3, President4, President5];
 console.log (President3.firstName, President3.lastName);
 
 
-function howdy(name) {
-alert(name + " " + "says hi!");
+function howdy() {
+    console.log("Sheina Mompremier says hi!");
 }
 
-howdy("Sheina Mompremier");
-
-howdy ();
-
+howdy();
