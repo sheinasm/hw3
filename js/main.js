@@ -46,11 +46,32 @@ var Presidents = [President1, President2, President3, President4, President5];
 console.log (President3.firstName, President3.lastName);
 
 
-function howdy(name) {
-alert(name + " " + "says hi!");
+function howdy() {
+    console.log("Sheina Mompremier says hi!");
 }
 
-howdy("Sheina Mompremier");
+howdy();
 
-howdy ();
+var numba = function( string ) {
+    if (string.length < 7) {
+        console.log( "What a short little word!" );
+    } else if (string.length > 7) {
+        console.log( "I'm sorry, but that’s too many to count." );
+    } else {
+        console.log( "7, what a perfect choice!" );
+    }
+}
 
+numba( "7" );
+numba( "seventy" );
+numba( "university" );
+
+function inception( callback, value ) {
+    callback( value );
+}
+
+function funcToCall( messageToLog ) {
+    console.log( messageToLog );
+}
+
+inception( funcToCall, "LOTR is a fantastic movie." );
